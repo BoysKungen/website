@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <title>App!</title>
+</head>
+
+<body>
+<div id="darkness" class="" onclick="tintclick(this);"></div>
+<div class="main">
+    <div class="menu hide-menu hidden" >
+        <div class="menu-list">
+            <div class="listtop"><button onclick="menuClicked();"><i class="zmdi zmdi-arrow-left icon listtext"></i></button><h2>Menu</h2></div>
+             <div class="listdiv">
+                 <div class="listitem"><i class="zmdi zmdi-star zmdi-hc-2x listicon"></i><h3 class="listtext">Favorites</h3></div>
+                 <div class="listitem"><i class="zmdi zmdi-pizza zmdi-hc-2x listicon"></i><h3 class="listtext">Pizza</h3></div>
+                 <div class="listitem"><i class="zmdi zmdi-pin zmdi-hc-2x listicon"></i><h3 class="listtext">Location</h3></div>
+                 <div class="listitem"><i class="zmdi zmdi-settings zmdi-hc-2x listicon"></i><h3 class="listtext">Settings</h3></div>
+                 <div class="listitem"><i class="zmdi zmdi-info zmdi-hc-2x listicon"></i><h3 class="listtext">About Us</h3></div>
+                 <div class="listfooter">
+                     <form action="http://github.com/boyskungen"><button id="github"><i class="zmdi zmdi-github zmdi-hc-1x"></i></button></form>
+                     <form action="http://twitter.com/mcflycsgo"><button id="twitter"><i class="zmdi zmdi-twitter zmdi-hc-1x"></i></button></form>
+                 </div>
+             </div>
+
+        </div>
+    </div>
+    <header>
+        <div class="hdr-left">
+            <button onclick="menuanimation();"><i class="zmdi zmdi-menu icon"></i></button>
+            <div class="hdr-text">Home</div>
+        </div>
+        <div class="push"></div>
+        <div class="push"></div>
+        <div class="icon">
+            <button onclick="showSearch(this);"><i class="zmdi zmdi-search search-icon"></i></button>
+        </div>
+    </header>
+
+</div>
+
+<script language="JavaScript" type="text/javascript" src="./js/animation.js"></script>
+</body>
+
+</html>
